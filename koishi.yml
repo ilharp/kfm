@@ -1,7 +1,7 @@
 host: 127.0.0.1
 
-port: 80
-maxPort: 80
+port: ${{ Number(env.KFM_PORT) }}
+maxPort: ${{ Number(env.KFM_PORT) }}
 
 prefix:
   - .
@@ -15,7 +15,7 @@ plugins:
   group:database:
     database-mysql:
       host: ${{ env.KFM_MYSQL_HOST }}
-      port: ${{ Number(env.KFM_MYSQL_PORT) }}
+      port: 3306
       password: ${{ env.KFM_MYSQL_PASSWORD }}
       database: ${{ env.KFM_MYSQL_DATABASE }}
   group:adapter:
