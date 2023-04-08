@@ -1,7 +1,6 @@
-host: 127.0.0.1
-
-port: ${{ Number(env.KFM_PORT) }}
-maxPort: ${{ Number(env.KFM_PORT) }}
+host: '${{ env.KFM_EXPOSE ? "0.0.0.0" : "127.0.0.1" }}'
+port: ${{ env.KFM_PORT && Number(env.KFM_PORT) || 5140 }}
+maxPort: ${{ env.KFM_PORT && Number(env.KFM_PORT) || 5140 }}
 
 prefix:
   - .
