@@ -1,0 +1,40 @@
+host: 127.0.0.1
+
+port: 80
+maxPort: 80
+
+prefix:
+  - .
+  - 。
+autoAuthorize: 1
+
+plugins:
+  group:basic:
+    rate-limit: {}
+    admin: {}
+  group:database:
+    database-mysql:
+      host: ${{ env.KFM_MYSQL_HOST }}
+      port: ${{ env.KFM_MYSQL_PORT }}
+      password: ${{ env.KFM_MYSQL_PASSWORD }}
+      database: ${{ env.KFM_MYSQL_DATABASE }}
+  group:adapter:
+    adapter-onebot:
+      protocol: ws
+      selfId: "${{ env.KFM_QQ }}"
+      endpoint: ${{ env.KFM_GOCQ_ENDPOINT }}
+      token: ${{ env.KFM_GOCQ_TOKEN }}
+  group:dialog:
+    dialogue: {}
+    dialogue-flow: {}
+    dialogue-author: {}
+    dialogue-rate-limit: {}
+    dialogue-time: {}
+  group:others:
+    schedule: {}
+    recall: {}
+    sudo: {}
+    broadcast: {}
+    echo: {}
+    nyan:
+      transformLastLineOnly: true
