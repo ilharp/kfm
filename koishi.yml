@@ -15,7 +15,7 @@ plugins:
   group:database:
     database-mysql:
       host: ${{ env.KFM_MYSQL_HOST }}
-      port: ${{ env.KFM_MYSQL_PORT }}
+      port: ${{ Number(env.KFM_MYSQL_PORT) }}
       password: ${{ env.KFM_MYSQL_PASSWORD }}
       database: ${{ env.KFM_MYSQL_DATABASE }}
   group:adapter:
@@ -30,6 +30,8 @@ plugins:
     dialogue-author: {}
     dialogue-rate-limit: {}
     dialogue-time: {}
+  group:manage:
+    verify: {}
   group:others:
     schedule: {}
     recall: {}
