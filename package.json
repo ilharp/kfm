@@ -27,6 +27,6 @@
     "koishi-plugin-dialogue-rate-limit": "1.0.2",
     "koishi-plugin-dialogue-time": "1.0.2",
     "koishi-plugin-nyan": "1.2.3",
-    "koishi-plugin-verify": "0.1.2"
+    "koishi-plugin-verify": "0.1.3"
   }
 }
