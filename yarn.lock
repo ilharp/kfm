@@ -865,10 +865,10 @@ koishi-plugin-nyan@1.2.3:
   resolved "https://registry.npmjs.org/koishi-plugin-nyan/-/koishi-plugin-nyan-1.2.3.tgz#819d06cd872e3734af823ceacd81fdb05638f69a"
   integrity sha512-OZh7UhBIezcPnSLnzTE9DBiMRaR8wcMZZKL/7ayoIZt9sR1Uovl1cdEmihihlQnDz3MkhkSB1RFMiCcMNfBpmQ==
 
-koishi-plugin-verify@0.1.5:
-  version "0.1.5"
-  resolved "https://registry.npmjs.org/koishi-plugin-verify/-/koishi-plugin-verify-0.1.5.tgz#8d2aa761be6c9b96ddf4f3dad04d8918e11f7d92"
-  integrity sha512-8RTwGOBqmbD0UQb4eLFUqZDlSR+zDozXXDSLTeqHkZoGYmgJ9SFOmvm5w8+nD+pExXr355JCHxIqYXxSRwZV6g==
+koishi-plugin-verify@0.1.6:
+  version "0.1.6"
+  resolved "https://registry.npmjs.org/koishi-plugin-verify/-/koishi-plugin-verify-0.1.6.tgz#5bf4781af10e102ade1684cd6633ed6b204c0e27"
+  integrity sha512-yuBfgOOICGBjQWItPIz1PxkBwJVVfttaDzhKvGwgOSu/DkYPSLZnLIHVRxeawtd8I4Al/EI9fDvUA2KAzzmwOg==
 
 koishi@4.11.5:
   version "4.11.5"
