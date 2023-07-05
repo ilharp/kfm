@@ -18,11 +18,9 @@ plugins:
       password: ${{ env.KFM_MYSQL_PASSWORD }}
       database: ${{ env.KFM_MYSQL_DATABASE }}
   group:adapter:
-    adapter-onebot:
-      protocol: ws
-      selfId: "${{ env.KFM_QQ }}"
-      endpoint: ${{ env.KFM_GOCQ_ENDPOINT }}
-      token: ${{ env.KFM_GOCQ_TOKEN }}
+    '@chronocat/adapter':
+      endpoint: ${{ env.KFM_CHRONOCAT_ENDPOINT }}
+      token: ${{ env.KFM_CHRONOCAT_TOKEN }}
   group:dialog:
     dialogue: {}
     dialogue-flow: {}
