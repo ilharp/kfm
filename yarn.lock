@@ -2,19 +2,19 @@
 # yarn lockfile v1
 
 
-"@chronocat/koishi-plugin-adapter@0.0.5":
-  version "0.0.5"
-  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.5.tgz#45a0706726fa1a3af9e2db36faaa765ff91322db"
-  integrity sha512-8mZ0OfADsPG26QYlRASTo8PgVBgqBlWIDDQ6x1GpXry51+IdOielTDh8AY6IEvrj2FjBtX4yzGEu95VhvhOreA==
+"@chronocat/koishi-plugin-adapter@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.7.tgz#3080485a5eb2e2ac947f729002a1541dbdd6cfc1"
+  integrity sha512-Y6gcOMrgSY5/jU2HuuhLzwWjcDAZCUP08uWMAky/YHqDf/WIGuaqMNZzJMmhCSMf1KntyBSPxbSOhcOP+UD0Ug==
   dependencies:
     "@swc/helpers" "^0.5.1"
   optionalDependencies:
     "@chronocat/koishi-plugin-launcher" "*"
 
 "@chronocat/koishi-plugin-launcher@*":
-  version "0.0.5"
-  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-launcher/-/koishi-plugin-launcher-0.0.5.tgz#aa9a404d2939660ba29705e3d237bef92b7c451e"
-  integrity sha512-IRnJyIOK+Zr4EqSEZ/KSPm2CAg71PloFy6yL1VgE6lSbQu7ftRFO0rAnQETk5Z/dJSwAu9lBZ8wrxz8sDngOtA==
+  version "0.0.7"
+  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-launcher/-/koishi-plugin-launcher-0.0.7.tgz#9a0ac5ff51f101f5996c55120e007951f3bf0b67"
+  integrity sha512-JeC3l1HQ2jWizR1fQZ7sbhUYmW63OU97hK+3r4YCJXIEV4MBjF/PPMf9Phti8bAfkGOzwPSTftdTLRyWPbFeWA==
   dependencies:
     "@swc/helpers" "^0.5.1"
     execa "^5"
@@ -286,9 +286,9 @@
   integrity sha512-YATxVxgRqNH6nHEIsvg6k2Boc1JHI9ZbH5iWFFv/MTkchz3b1ieGDa5T0a9RznNdI0KhVbdbWSN+KWWrQZRxTw==
 
 "@types/node@*":
-  version "20.3.3"
-  resolved "https://registry.npmjs.org/@types/node/-/node-20.3.3.tgz#329842940042d2b280897150e023e604d11657d6"
-  integrity sha512-wheIYdr4NYML61AjC8MKj/2jrR/kDQri/CIpVoZwldwhnIrD/j9jIU5bJ8yBKuB2VhpFV7Ab6G2XkBjv9r9Zzw==
+  version "20.4.0"
+  resolved "https://registry.npmjs.org/@types/node/-/node-20.4.0.tgz#01d637d1891e419bc85763b46f42809cd2d5addb"
+  integrity sha512-jfT7iTf/4kOQ9S7CHV9BIyRaQqHu67mOjsIQBC3BKZvzvUB6zLxEwJ6sBE3ozcvP8kF6Uk5PXN0Q+c0dfhGX0g==
 
 "@types/qs@*":
   version "6.9.7"
@@ -456,9 +456,9 @@ cordis-axios@^3.1.2:
     mime-db "^1.52.0"
 
 cordis@^2.8.0:
-  version "2.8.1"
-  resolved "https://registry.npmjs.org/cordis/-/cordis-2.8.1.tgz#60f74454a048845fd78c92f14e499b285add82d9"
-  integrity sha512-pzykgqXtPA62knhya64m2FIzEVyTzRmafMQFkfLkELHtMdKkc6hYvLCH9dXa7XkN+shJx+xswPtxGkxNXew7og==
+  version "2.8.2"
+  resolved "https://registry.npmjs.org/cordis/-/cordis-2.8.2.tgz#bc03647fb977b48e82b91d494580629ba4e7947a"
+  integrity sha512-E7TyLy4ZHNL8hAkzjkVa8OpaH0wxwbYNoJ/WMOoetmq1P/m+a69XnTd+/FZtFbLH8ZFtKFs1qJ0mT5Ah+IAOjA==
   dependencies:
     cosmokit "^1.4.2"
 
