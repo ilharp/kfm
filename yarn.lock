@@ -2,19 +2,19 @@
 # yarn lockfile v1
 
 
-"@chronocat/koishi-plugin-adapter@0.0.7":
-  version "0.0.7"
-  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.7.tgz#3080485a5eb2e2ac947f729002a1541dbdd6cfc1"
-  integrity sha512-Y6gcOMrgSY5/jU2HuuhLzwWjcDAZCUP08uWMAky/YHqDf/WIGuaqMNZzJMmhCSMf1KntyBSPxbSOhcOP+UD0Ug==
+"@chronocat/koishi-plugin-adapter@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.9.tgz#eadf3558eaf8d9788e00583cf369366773deea37"
+  integrity sha512-529ohPV46SrePfjRFhDuOTaDyDg3b6W4I/nX8JYQ3BIpipR8H1yIpg5JSVP/soEVELoF+MG/+AAJ1MVUN9TdeQ==
   dependencies:
     "@swc/helpers" "^0.5.1"
   optionalDependencies:
     "@chronocat/koishi-plugin-launcher" "*"
 
 "@chronocat/koishi-plugin-launcher@*":
-  version "0.0.7"
-  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-launcher/-/koishi-plugin-launcher-0.0.7.tgz#9a0ac5ff51f101f5996c55120e007951f3bf0b67"
-  integrity sha512-JeC3l1HQ2jWizR1fQZ7sbhUYmW63OU97hK+3r4YCJXIEV4MBjF/PPMf9Phti8bAfkGOzwPSTftdTLRyWPbFeWA==
+  version "0.0.9"
+  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-launcher/-/koishi-plugin-launcher-0.0.9.tgz#f2b4d74bb855e17e7b30ceab99144eb9dc526150"
+  integrity sha512-lnH6tYdd7UBaMaAbu5IphsdSKY7GDh6/rP3j3P2TJMI/PrtIlbHqCJVo2tLCCtVy2CA9mw6xwaCTBrXRyqIF2Q==
   dependencies:
     "@swc/helpers" "^0.5.1"
     execa "^5"
@@ -286,9 +286,9 @@
   integrity sha512-YATxVxgRqNH6nHEIsvg6k2Boc1JHI9ZbH5iWFFv/MTkchz3b1ieGDa5T0a9RznNdI0KhVbdbWSN+KWWrQZRxTw==
 
 "@types/node@*":
-  version "20.4.0"
-  resolved "https://registry.npmjs.org/@types/node/-/node-20.4.0.tgz#01d637d1891e419bc85763b46f42809cd2d5addb"
-  integrity sha512-jfT7iTf/4kOQ9S7CHV9BIyRaQqHu67mOjsIQBC3BKZvzvUB6zLxEwJ6sBE3ozcvP8kF6Uk5PXN0Q+c0dfhGX0g==
+  version "20.4.1"
+  resolved "https://registry.npmjs.org/@types/node/-/node-20.4.1.tgz#a6033a8718653c50ac4962977e14d0f984d9527d"
+  integrity sha512-JIzsAvJeA/5iY6Y/OxZbv1lUcc8dNSE77lb2gnBH+/PJ3lFR1Ccvgwl5JWnHAkNHcRsT0TbpVOsiMKZ1F/yyJg==
 
 "@types/qs@*":
   version "6.9.7"
