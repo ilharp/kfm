@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@chronocat/koishi-plugin-adapter@0.0.9":
-  version "0.0.9"
-  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.9.tgz#eadf3558eaf8d9788e00583cf369366773deea37"
-  integrity sha512-529ohPV46SrePfjRFhDuOTaDyDg3b6W4I/nX8JYQ3BIpipR8H1yIpg5JSVP/soEVELoF+MG/+AAJ1MVUN9TdeQ==
+"@chronocat/koishi-plugin-adapter@0.0.10":
+  version "0.0.10"
+  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.10.tgz#b86e14b6eadea3334fe2c3183e4940c931417d60"
+  integrity sha512-KyJ5nFlHQdJcO4i6ks9+CuluTSrnSszf0EA7DDRg0mIU4Z6zmOF0T8tXxvas/mOdPk0QkYqFYD8sWemRjTkE0A==
   dependencies:
     "@swc/helpers" "^0.5.1"
   optionalDependencies:
