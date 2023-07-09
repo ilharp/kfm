@@ -2,19 +2,19 @@
 # yarn lockfile v1
 
 
-"@chronocat/koishi-plugin-adapter@0.0.10":
-  version "0.0.10"
-  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.10.tgz#b86e14b6eadea3334fe2c3183e4940c931417d60"
-  integrity sha512-KyJ5nFlHQdJcO4i6ks9+CuluTSrnSszf0EA7DDRg0mIU4Z6zmOF0T8tXxvas/mOdPk0QkYqFYD8sWemRjTkE0A==
+"@chronocat/koishi-plugin-adapter@0.0.11":
+  version "0.0.11"
+  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.11.tgz#6f205aeee4412901c605ff6ea905886e1e9f7492"
+  integrity sha512-zvUkNYWPZ+v7Xk3Oz/MMOQzSZGyzZSArxMmCK3upeRCq2sn5Ap21mDU26fgZ/zlTQgSBRsXmhI92wk+kGMt2mg==
   dependencies:
     "@swc/helpers" "^0.5.1"
   optionalDependencies:
     "@chronocat/koishi-plugin-launcher" "*"
 
 "@chronocat/koishi-plugin-launcher@*":
-  version "0.0.9"
-  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-launcher/-/koishi-plugin-launcher-0.0.9.tgz#f2b4d74bb855e17e7b30ceab99144eb9dc526150"
-  integrity sha512-lnH6tYdd7UBaMaAbu5IphsdSKY7GDh6/rP3j3P2TJMI/PrtIlbHqCJVo2tLCCtVy2CA9mw6xwaCTBrXRyqIF2Q==
+  version "0.0.11"
+  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-launcher/-/koishi-plugin-launcher-0.0.11.tgz#38e40020a7a7011b9afa88ec71f8cd9af82f9aad"
+  integrity sha512-6RW73gGjQfGNfkYk5xW5RbiMxW86v/h1OlMlKAifM021Y2FS2FtVo+YqYdupLEZIs5O2SHLhh3zZuV4ZCz1gBw==
   dependencies:
     "@swc/helpers" "^0.5.1"
     execa "^5"
