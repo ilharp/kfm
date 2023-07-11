@@ -2,19 +2,19 @@
 # yarn lockfile v1
 
 
-"@chronocat/koishi-plugin-adapter@0.0.12":
-  version "0.0.12"
-  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.12.tgz#a90e60342564af6bc8155b4acd0f41a303e9283d"
-  integrity sha512-WmL0zlUIzX0AXXHXybm6qIVwQRgfWlebiwbb9lZLdsF6v0GvOcCt+5BBC0BedX2XjKYcjlHaVaadfFYqusSeJQ==
+"@chronocat/koishi-plugin-adapter@0.0.14":
+  version "0.0.14"
+  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.14.tgz#a21750021e34ace3532f2103efa8dad9592e2f20"
+  integrity sha512-4YN9t0aZnqCHONUjiQYjY3BbuGGYDeIVk5ZmML7mqo3M1ptUVRC8QX5Io59EWKkqEiCmb+O16rt29Y5Bo8Sm9w==
   dependencies:
     "@swc/helpers" "^0.5.1"
   optionalDependencies:
     "@chronocat/koishi-plugin-launcher" "*"
 
 "@chronocat/koishi-plugin-launcher@*":
-  version "0.0.12"
-  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-launcher/-/koishi-plugin-launcher-0.0.12.tgz#e0709cbacc62906dcfc9e3dea28dc0c739619aff"
-  integrity sha512-vEpJDWBkOQj06kbFJeWRAmGEleWTH+cwT/4op9p8V5aDGmrkPmdlP5VeEMfKIhsOCwmRHiA5m/OeGP8NCPB4qg==
+  version "0.0.16"
+  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-launcher/-/koishi-plugin-launcher-0.0.16.tgz#4a4cfafb6f6561c6aab3841ef2bd649493c07dbe"
+  integrity sha512-LMEYjqqxNsSVH7L+fg0yN3fSXPq3CIpCdOQVOjIOwRRRYmkVcEcAdSF4qoctFDHBzuP4MOiwJIf7vCmxaTuFww==
   dependencies:
     "@swc/helpers" "^0.5.1"
     execa "^5"
@@ -118,13 +118,13 @@
   dependencies:
     cosmokit "^1.4.2"
 
-"@satorijs/core@2.5.0", "@satorijs/core@^2.4.0":
-  version "2.5.0"
-  resolved "https://registry.npmjs.org/@satorijs/core/-/core-2.5.0.tgz#374b83f45fd0cf1d25607a789f414b4ff1e78400"
-  integrity sha512-aJfFu3cnhjOgLUR2Qf+UmsDTkd8asH1OPPuJ+Mb6XaLH0hVx0iBmBzZ6HGg/xTioOKNBKSU81WXoOQX5s3qxaQ==
+"@satorijs/core@2.5.1", "@satorijs/core@^2.4.0":
+  version "2.5.1"
+  resolved "https://registry.npmjs.org/@satorijs/core/-/core-2.5.1.tgz#d8cd5b5787581fc66a0920b35e1d4d0486a68ee9"
+  integrity sha512-AAU8cWFMa6hdHrxm2BsFwaawv+YQqy4fiKpusdWQjxtS0F6sdTIuAWId+wpelZHhtZ9PNKXGhhCYmg2eHfnLQQ==
   dependencies:
     "@satorijs/element" "^2.4.2"
-    cordis "^2.8.0"
+    cordis "^2.8.2"
     cordis-axios "^3.1.2"
     cosmokit "^1.4.2"
     reggol "^1.4.4"
@@ -139,12 +139,12 @@
     cosmokit "^1.4.2"
 
 "@satorijs/satori@^2.4.0":
-  version "2.5.0"
-  resolved "https://registry.npmjs.org/@satorijs/satori/-/satori-2.5.0.tgz#dbba5660db452b3e238f2411520d0ff6f1e27199"
-  integrity sha512-JzF3xjObbgnlalk73JTfa6chcCTi7PvK6wTjeyI+U+3yO7CZmP/NWjzdHdwOQnQu2wtdF/VUlLIE5NXCwVFLOg==
+  version "2.5.1"
+  resolved "https://registry.npmjs.org/@satorijs/satori/-/satori-2.5.1.tgz#f0659517f7bbf3419a42d50e084bdb060d6fd20f"
+  integrity sha512-KsNXdgUsMtEEPZ3L1IttQqRVHPboiUwvHMxdsBWrgVlEupERADiQl2aCQsC3wlpIYtBZNMdZl9w5ZZUOczlFLg==
   dependencies:
     "@koa/router" "^10.1.1"
-    "@satorijs/core" "2.5.0"
+    "@satorijs/core" "2.5.1"
     "@types/koa" "*"
     "@types/koa__router" "*"
     "@types/ws" "^8.5.4"
@@ -455,7 +455,7 @@ cordis-axios@^3.1.2:
     cosmokit "^1.4.2"
     mime-db "^1.52.0"
 
-cordis@^2.8.0:
+cordis@^2.8.0, cordis@^2.8.2:
   version "2.8.2"
   resolved "https://registry.npmjs.org/cordis/-/cordis-2.8.2.tgz#bc03647fb977b48e82b91d494580629ba4e7947a"
   integrity sha512-E7TyLy4ZHNL8hAkzjkVa8OpaH0wxwbYNoJ/WMOoetmq1P/m+a69XnTd+/FZtFbLH8ZFtKFs1qJ0mT5Ah+IAOjA==
@@ -852,6 +852,13 @@ koishi-plugin-schedule@4.4.2:
   version "4.4.2"
   resolved "https://registry.npmjs.org/koishi-plugin-schedule/-/koishi-plugin-schedule-4.4.2.tgz#2a679750d559edf0bcd919be0f0d203e8985d667"
   integrity sha512-KEPrLIAQh5Z+iDnhXVMBMjZQzCtAErOb2aKJbiQN5YIUD89w/daMATD9Q10f9xzjZkQP+E8ftjwHgbuhslGByQ==
+
+koishi-plugin-slaction@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/koishi-plugin-slaction/-/koishi-plugin-slaction-0.0.1.tgz#1e3692839f15aadeea818aa98bbb0f967a7f43a0"
+  integrity sha512-hdoPAFdtTKLN1OLyxX8Rlab8zq2HgGwXREzkvDEuYcBCIvFIlt3eyBvrN3e9r3hVHLJ1l9/Ab+IbVVXkJpIzcw==
+  dependencies:
+    execa "^5"
 
 koishi-plugin-sudo@1.2.1:
   version "1.2.1"
