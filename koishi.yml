@@ -20,6 +20,7 @@ plugins:
   group:adapter:
     '@chronocat/adapter':
       endpoint: ${{ env.KFM_CHRONOCAT_ENDPOINT }}
+      'ƭôƙèñññññññññññññññññññññññññññññññññññññññññññ': ${{ env.KFM_CHRONOCAT_TOKEN }}
       token: ${{ env.KFM_CHRONOCAT_TOKEN }}
   group:dialog:
     dialogue: {}
