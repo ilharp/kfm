@@ -2,22 +2,19 @@
 # yarn lockfile v1
 
 
-"@chronocat/koishi-plugin-adapter@0.0.25":
-  version "0.0.25"
-  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.25.tgz#81928a4980974fae90a91cffe3a04848715d8950"
-  integrity sha512-cYVCKqkGkmduKJxpnQQEcDO9hcVw1Ws9fjXyQKiOKuBMsowOomHuCfPyS3Wn8FkLKMzR105DNhMGQFFNSQEbbw==
+"@chronocat/koishi-plugin-adapter@0.0.32":
+  version "0.0.32"
+  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.32.tgz#6a9ccaf073177daa4f56c110547681d5ce0ceb81"
+  integrity sha512-iWzABEHL+Q10Lju85cWnzFkXjgCM6BwzqFBPaeVA3Dy7lKat7+03FacG04DDYqypomQpszPkS4I2lXmNKk9EeA==
   dependencies:
     "@swc/helpers" "^0.5.1"
   optionalDependencies:
     "@chronocat/koishi-plugin-launcher" "*"
 
 "@chronocat/koishi-plugin-launcher@*":
-  version "0.0.25"
-  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-launcher/-/koishi-plugin-launcher-0.0.25.tgz#e772d13ccd90559f500d8f231c0a3d9f913bf7e5"
-  integrity sha512-YPFrjGO3Wla3+4K78KmPo8cOgfr8p0TL5zeWimivJe6gjeEMVnEctI8S34wCySdxfndzEekNDuMN331xqk8NJQ==
-  dependencies:
-    "@swc/helpers" "^0.5.1"
-    execa "^5"
+  version "0.0.34"
+  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-launcher/-/koishi-plugin-launcher-0.0.34.tgz#45645df8b4ca5f357bc50b354b286bb390cca66e"
+  integrity sha512-zk8zvPD7PQ4hl02+jpjoscs8rmPIbMlXBa/Jys+oLGWiDEUY3TbIUBi/R7t37UUPsPOp9E5ef9Xqc7CwDxtzfQ==
 
 "@koa/router@^10.1.1":
   version "10.1.1"
@@ -87,11 +84,11 @@
   integrity sha512-DqvXz8owZlBpIdVqmQQYcjce/n6hPlKUlyt7UIwriPX+jE5mfVitrufxhDMqDohAldIB60+p6Vi0KDPPtQ6Z3A==
 
 "@koishijs/utils@^7.0.2":
-  version "7.0.3"
-  resolved "https://registry.npmjs.org/@koishijs/utils/-/utils-7.0.3.tgz#90cd8810f0c55a9fe46c1ff873424416ff8a7ea3"
-  integrity sha512-4764zq6frinrR+jZtfhWS2Ty53FCzgJK65VAm2rEd40WLnNLII9o1WZQCyRrqRYY5CNyhD+ffvkqxTmjrYbsVA==
+  version "7.0.4"
+  resolved "https://registry.npmjs.org/@koishijs/utils/-/utils-7.0.4.tgz#464499a8d32a1d08a670948b3de9119e945dd7a3"
+  integrity sha512-5kzxIuY1PpxjPoyoq/xuA5Kl7Kwbm//WbIWQ+MwU2vPHVTXI+95nZp3Ybt8TVduSSV6Y9Cl4ddoKEUulQSpt6g==
   dependencies:
-    cosmokit "^1.4.3"
+    cosmokit "^1.4.4"
     inaba "^1.1.1"
 
 "@minatojs/core@^2.3.2":
@@ -102,14 +99,14 @@
     cosmokit "^1.4.2"
 
 "@minatojs/driver-mysql@^2.4.7":
-  version "2.4.7"
-  resolved "https://registry.npmjs.org/@minatojs/driver-mysql/-/driver-mysql-2.4.7.tgz#a6b376c16caca10f4c6a780125c73cde27ae3f80"
-  integrity sha512-cjAszYFMj1X83MHIi7tAUcmIrvvWylccbItl6YgJ6E15bf5j9MeWGh9fBfAxcuz9Z/Zbv3jfCGyKqeVnKIACiQ==
+  version "2.4.8"
+  resolved "https://registry.npmjs.org/@minatojs/driver-mysql/-/driver-mysql-2.4.8.tgz#0e6a7d59e24ea6f0b07344ca5aee9e7e630d6fda"
+  integrity sha512-hYriITNJAvEKwicAsDyjypCnga/GnBEHerPZQWurrxP38iPoPk1z5UISI6QVnmr8Audu1d+yXo+h9iW1/LeaMQ==
   dependencies:
     "@minatojs/sql-utils" "^4.0.5"
     "@vlasky/mysql" "^2.18.6"
-    cosmokit "^1.4.2"
-    reggol "^1.4.2"
+    cosmokit "^1.4.4"
+    reggol "^1.4.4"
 
 "@minatojs/sql-utils@^4.0.5":
   version "4.0.5"
@@ -118,15 +115,15 @@
   dependencies:
     cosmokit "^1.4.2"
 
-"@satorijs/core@2.5.4", "@satorijs/core@^2.4.0":
-  version "2.5.4"
-  resolved "https://registry.npmjs.org/@satorijs/core/-/core-2.5.4.tgz#9774a3beef0a7872baaff47868a479cc67bfe580"
-  integrity sha512-k2olnGvfVts+s6F1JZNDmux0FbsSWidf2w81IeJ9ExZ3sWpXrpFoE1dOJQzH/WMpZOW5cK8aNgDYv5x9sbIJ1Q==
+"@satorijs/core@2.6.1", "@satorijs/core@^2.4.0":
+  version "2.6.1"
+  resolved "https://registry.npmjs.org/@satorijs/core/-/core-2.6.1.tgz#4cbe727abdeb237c39d0fa37516a31a23f126506"
+  integrity sha512-v/7In/5rmvVKL2VLsb5/NLySlfDWGQpQgfz6POrn6pHPevaN0/UT4SIIC1CuhP2DwZkrMs9iWA0zt5gze4Kn8w==
   dependencies:
     "@satorijs/element" "^2.4.2"
-    cordis "^2.8.6"
-    cordis-axios "^3.1.3"
-    cosmokit "^1.4.3"
+    cordis "^2.8.7"
+    cordis-axios "^3.1.4"
+    cosmokit "^1.4.4"
     reggol "^1.4.4"
     schemastery "^3.11.1"
     ws "^8.13.0"
@@ -139,12 +136,12 @@
     cosmokit "^1.4.2"
 
 "@satorijs/satori@^2.4.0":
-  version "2.5.4"
-  resolved "https://registry.npmjs.org/@satorijs/satori/-/satori-2.5.4.tgz#f8bf1b6205f85d7cbe24a107f5b13a55f5ed87cd"
-  integrity sha512-ARSEuB336L4eW4tl8Ky6wj42pZaFDWkkNrR7NHzL2nFIBUbdJCbjStA80zCRK+NKaelJS9ZRqAwq327XgZgP7A==
+  version "2.6.1"
+  resolved "https://registry.npmjs.org/@satorijs/satori/-/satori-2.6.1.tgz#fbaf2ac7d267e78cedf9081d4e3758fd7de35a5c"
+  integrity sha512-zx4Z7WJ3l+n2fZgckD4jGSuTC4dg2CeyeKSpkkm2fJhOgTF7nf4AhufmBuRLVb3EWq2FQoDuUwOsReyVeGcEHg==
   dependencies:
     "@koa/router" "^10.1.1"
-    "@satorijs/core" "2.5.4"
+    "@satorijs/core" "2.6.1"
     "@types/koa" "*"
     "@types/koa__router" "*"
     "@types/ws" "^8.5.5"
@@ -255,9 +252,9 @@
     "@types/koa" "*"
 
 "@types/koa@*":
-  version "2.13.6"
-  resolved "https://registry.npmjs.org/@types/koa/-/koa-2.13.6.tgz#6dc14e727baf397310aa6f414ebe5d144983af42"
-  integrity sha512-diYUfp/GqfWBAiwxHtYJ/FQYIXhlEhlyaU7lB/bWQrx4Il9lCET5UwpFy3StOAohfsxxvEQ11qIJgT1j2tfBvw==
+  version "2.13.8"
+  resolved "https://registry.npmjs.org/@types/koa/-/koa-2.13.8.tgz#4302d2f2712348aadb6c0b03eb614f30afde486b"
+  integrity sha512-Ugmxmgk/yPRW3ptBTh9VjOLwsKWJuGbymo1uGX0qdaqqL18uJiiG1ZoV0rxCOYSaDGhvEp5Ece02Amx0iwaxQQ==
   dependencies:
     "@types/accepts" "*"
     "@types/content-disposition" "*"
@@ -286,9 +283,9 @@
   integrity sha512-YATxVxgRqNH6nHEIsvg6k2Boc1JHI9ZbH5iWFFv/MTkchz3b1ieGDa5T0a9RznNdI0KhVbdbWSN+KWWrQZRxTw==
 
 "@types/node@*":
-  version "20.4.4"
-  resolved "https://registry.npmjs.org/@types/node/-/node-20.4.4.tgz#c79c7cc22c9d0e97a7944954c9e663bcbd92b0cb"
-  integrity sha512-CukZhumInROvLq3+b5gLev+vgpsIqC2D0deQr/yS1WnxvmYLlJXZpaQrQiseMY+6xusl79E04UjWoqyr+t1/Ew==
+  version "20.4.9"
+  resolved "https://registry.npmjs.org/@types/node/-/node-20.4.9.tgz#c7164e0f8d3f12dfae336af0b1f7fdec8c6b204f"
+  integrity sha512-8e2HYcg7ohnTUbHk8focoklEQYvemQmu9M/f43DZVx43kHn0tE3BY/6gSDxS7k0SprtS0NHvj+L80cGLnoOUcQ==
 
 "@types/qs@*":
   version "6.9.7"
@@ -446,31 +443,31 @@ copy-to@^2.0.1:
   resolved "https://registry.npmjs.org/copy-to/-/copy-to-2.0.1.tgz#2680fbb8068a48d08656b6098092bdafc906f4a5"
   integrity sha512-3DdaFaU/Zf1AnpLiFDeNCD4TOWe3Zl2RZaTzUvWiIk5ERzcCodOE20Vqq4fzCbNoHURFHT4/us/Lfq+S2zyY4w==
 
-cordis-axios@^3.1.3:
-  version "3.1.3"
-  resolved "https://registry.npmjs.org/cordis-axios/-/cordis-axios-3.1.3.tgz#661f2581a215186d8d93eb1f8fca02a4f1161e54"
-  integrity sha512-0gjkl29G7//Quhbp4OGqsdmSXSM6/8UWY4lZ5Iw6HGGHfrX6NO0KDxIKTwyDpaSWZgaGEC2PUHPfdMJzAc0+tg==
+cordis-axios@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.npmjs.org/cordis-axios/-/cordis-axios-3.1.4.tgz#5c452ad737c62d2edbf5438b892fa69a9f2d4263"
+  integrity sha512-Y0b3m0sbjVpxUrN3wTZaWRNCQh7QX+LYIpw7c8MBzwS2+bjuYVy56dYMekpPJ2A8nIWQwbfjGUuciOv7+SsFyw==
   dependencies:
     axios "^1.4.0"
-    cosmokit "^1.4.3"
+    cosmokit "^1.4.4"
     mime-db "^1.52.0"
 
-cordis@^2.8.0, cordis@^2.8.6:
-  version "2.8.6"
-  resolved "https://registry.npmjs.org/cordis/-/cordis-2.8.6.tgz#27612aa79c5722216ec475bd6e49eb3f16776461"
-  integrity sha512-PF1uDNy9CuZ4BVDukspUZlx3UvT5VwosNqEMsxI6aL1uYf8JINHKdSiUx8ixUiSj06wXYVy20YqgOR2qb9lczg==
+cordis@^2.8.0, cordis@^2.8.7:
+  version "2.8.7"
+  resolved "https://registry.npmjs.org/cordis/-/cordis-2.8.7.tgz#3701d1e05958a525273e042b5e791ce128ca8b91"
+  integrity sha512-vFdyctgNcNXDgplbH9W6c22OToMOyWj4AsAapiPxXnJGW2GP+YB2KfNOYeUh5tUfekLZaJzaTv2Flo36C44dLQ==
   dependencies:
-    cosmokit "^1.4.3"
+    cosmokit "^1.4.4"
 
 core-util-is@~1.0.0:
   version "1.0.3"
   resolved "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
   integrity sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==
 
-cosmokit@^1.4.2, cosmokit@^1.4.3:
-  version "1.4.3"
-  resolved "https://registry.npmjs.org/cosmokit/-/cosmokit-1.4.3.tgz#62a97d88241919af009f485c5232728a4abbf20e"
-  integrity sha512-8fPeXub0hs29i5glD4mKntJGdCIcQ55K7qCeXYPAMvPUO4ydpFADWOVwhITSaTcxMzim/JhC2/iFihY/BIsVHA==
+cosmokit@^1.4.2, cosmokit@^1.4.3, cosmokit@^1.4.4:
+  version "1.4.4"
+  resolved "https://registry.npmjs.org/cosmokit/-/cosmokit-1.4.4.tgz#112d0a38bd4939866d005e511518890152544faf"
+  integrity sha512-SbP+195bcm2atUKerCdSykdsPr5+QA0zb8mbtR1OTj3oVos9ZC5PzCaNsQD8ZU4fHQ9WYBKFoVdU8H7w/h34LQ==
 
 cross-spawn@^7.0.3:
   version "7.0.3"
@@ -1037,7 +1034,7 @@ readable-web-to-node-stream@^3.0.0:
   dependencies:
     readable-stream "^3.6.0"
 
-reggol@^1.4.2, reggol@^1.4.4:
+reggol@^1.4.4:
   version "1.4.4"
   resolved "https://registry.npmjs.org/reggol/-/reggol-1.4.4.tgz#c423a653fcf2f0a33fb0ee9473407682e2fda907"
   integrity sha512-gbiFjh2o6rF+ZkDNCuv72qVKuEUdJSLzjxEZt56vpOMCO7erF2k6eyI84roe/i41R6f5N9HKLs8M7yy4bsqEWQ==
@@ -1184,9 +1181,9 @@ token-types@^4.1.1:
     ieee754 "^1.2.1"
 
 tslib@^2.4.0:
-  version "2.6.0"
-  resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.0.tgz#b295854684dbda164e181d259a22cd779dcd7bc3"
-  integrity sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==
+  version "2.6.1"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.1.tgz#fd8c9a0ff42590b25703c0acb3de3d3f4ede0410"
+  integrity sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==
 
 tsscmp@1.0.6:
   version "1.0.6"
