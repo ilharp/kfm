@@ -38,4 +38,4 @@ plugins:
     echo: {}
     nyan:
       transformLastLineOnly: true
-    slaction: {}
+    ~slaction: {}
