@@ -2,19 +2,17 @@
 # yarn lockfile v1
 
 
-"@chronocat/koishi-plugin-adapter@0.0.32":
-  version "0.0.32"
-  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.32.tgz#6a9ccaf073177daa4f56c110547681d5ce0ceb81"
-  integrity sha512-iWzABEHL+Q10Lju85cWnzFkXjgCM6BwzqFBPaeVA3Dy7lKat7+03FacG04DDYqypomQpszPkS4I2lXmNKk9EeA==
+"@chronocat/koishi-plugin-adapter@0.0.36":
+  version "0.0.36"
+  resolved "https://registry.npmmirror.com/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.36.tgz#9ec1b7f0209d10210e3cf60eb39c5eeedfed96c7"
+  integrity sha512-Sdvg1cMLel4yRKjIYHJp5mJBtFR48uomy/B5wufJU1QjpoWAX6g0qNK6R/bDmgpYc0x/IFUoyVs4oeMf/+EgoQ==
   dependencies:
-    "@swc/helpers" "^0.5.1"
-  optionalDependencies:
-    "@chronocat/koishi-plugin-launcher" "*"
+    "@chronocat/red" "0.0.36"
 
-"@chronocat/koishi-plugin-launcher@*":
-  version "0.0.34"
-  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-launcher/-/koishi-plugin-launcher-0.0.34.tgz#45645df8b4ca5f357bc50b354b286bb390cca66e"
-  integrity sha512-zk8zvPD7PQ4hl02+jpjoscs8rmPIbMlXBa/Jys+oLGWiDEUY3TbIUBi/R7t37UUPsPOp9E5ef9Xqc7CwDxtzfQ==
+"@chronocat/red@0.0.36":
+  version "0.0.36"
+  resolved "https://registry.npmmirror.com/@chronocat/red/-/red-0.0.36.tgz#d8cc4925040216cbcc1f5d5c26ed1f86e342a7fb"
+  integrity sha512-x0jGa9EufI/GlQg217Ddbse1c727yV5Uv/h6/4e5ykJKMN2mXusGJOlPllCw91bM9YKs1OXeFVJjjVC4mmKYzw==
 
 "@koa/router@^10.1.1":
   version "10.1.1"
@@ -154,13 +152,6 @@
     path-to-regexp "^6.2.1"
     socks-proxy-agent "^5.0.1"
     ws "^8.13.0"
-
-"@swc/helpers@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.1.tgz#e9031491aa3f26bfcc974a67f48bd456c8a5357a"
-  integrity sha512-sJ902EfIzn1Fa+qYmjdQqh8tPsoxyBz+8yBKC2HKUxyezKJFwPGOn7pv4WY6QuQW//ySQi5lJjA/ZT9sNWWNTg==
-  dependencies:
-    tslib "^2.4.0"
 
 "@tokenizer/token@^0.3.0":
   version "0.3.0"
@@ -1179,11 +1170,6 @@ token-types@^4.1.1:
   dependencies:
     "@tokenizer/token" "^0.3.0"
     ieee754 "^1.2.1"
-
-tslib@^2.4.0:
-  version "2.6.1"
-  resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.1.tgz#fd8c9a0ff42590b25703c0acb3de3d3f4ede0410"
-  integrity sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==
 
 tsscmp@1.0.6:
   version "1.0.6"
