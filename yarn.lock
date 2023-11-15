@@ -2,6 +2,20 @@
 # yarn lockfile v1
 
 
+"@chronocat/koishi-plugin-adapter@0.0.32":
+  version "0.0.32"
+  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-adapter/-/koishi-plugin-adapter-0.0.32.tgz#6a9ccaf073177daa4f56c110547681d5ce0ceb81"
+  integrity sha512-iWzABEHL+Q10Lju85cWnzFkXjgCM6BwzqFBPaeVA3Dy7lKat7+03FacG04DDYqypomQpszPkS4I2lXmNKk9EeA==
+  dependencies:
+    "@swc/helpers" "^0.5.1"
+  optionalDependencies:
+    "@chronocat/koishi-plugin-launcher" "*"
+
+"@chronocat/koishi-plugin-launcher@*":
+  version "0.0.34"
+  resolved "https://registry.npmjs.org/@chronocat/koishi-plugin-launcher/-/koishi-plugin-launcher-0.0.34.tgz#45645df8b4ca5f357bc50b354b286bb390cca66e"
+  integrity sha512-zk8zvPD7PQ4hl02+jpjoscs8rmPIbMlXBa/Jys+oLGWiDEUY3TbIUBi/R7t37UUPsPOp9E5ef9Xqc7CwDxtzfQ==
+
 "@koa/router@^10.1.1":
   version "10.1.1"
   resolved "https://registry.npmjs.org/@koa/router/-/router-10.1.1.tgz#8e5a85c9b243e0bc776802c0de564561e57a5f78"
@@ -793,13 +807,6 @@ koa@^2.14.2:
     statuses "^1.5.0"
     type-is "^1.6.16"
     vary "^1.1.2"
-
-koishi-plugin-a@0.0.35:
-  version "0.0.35"
-  resolved "https://registry.npmjs.org/koishi-plugin-a/-/koishi-plugin-a-0.0.35.tgz#eafeeb4f6d998b28ea64dc184631998f656ac5ab"
-  integrity sha512-14VIY362PIWLkm/ShB8gP4bkklaPMg9qBw3HQsJKVhzoAIBWrbI7Ilbc/Mt1Kqs4RnKdpV2KdeEOmT+Po+Lqzw==
-  dependencies:
-    "@swc/helpers" "^0.5.1"
 
 koishi-plugin-dialogue-author@1.0.4:
   version "1.0.4"

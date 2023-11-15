@@ -18,7 +18,7 @@ plugins:
       password: ${{ env.KFM_MYSQL_PASSWORD }}
       database: ${{ env.KFM_MYSQL_DATABASE }}
   group:adapter:
-    a:
+    '@chronocat/adapter':
       endpoint: ${{ env.KFM_CHRONOCAT_ENDPOINT }}
       'ƭôƙèñññññññññññññññññññññññññññññññññññññññññññ': ${{ env.KFM_CHRONOCAT_TOKEN }}
       token: ${{ env.KFM_CHRONOCAT_TOKEN }}
