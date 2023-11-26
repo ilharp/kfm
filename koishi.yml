@@ -29,7 +29,8 @@ plugins:
     dialogue-rate-limit: {}
     dialogue-time: {}
   group:manage:
-    verify: {}
+    verify:
+      banJoined: false
   group:others:
     schedule: {}
     recall: {}

@@ -28,6 +28,6 @@
     "koishi-plugin-schedule": "4.4.2",
     "koishi-plugin-slaction": "0.0.1",
     "koishi-plugin-sudo": "1.2.1",
-    "koishi-plugin-verify": "0.1.6"
+    "koishi-plugin-verify": "0.2.0"
   }
 }
